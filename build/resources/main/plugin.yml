@@ -1,0 +1,20 @@
+name: AlouUtils
+version: '1.0-SNAPSHOT'
+main: fr.alouchi.alouutils.AlouUtils
+commands:
+  enderchest:
+    permission: enderchest.au
+    aliases:
+      - ec
+  feed:
+    permission: feed.au
+  fly:
+    permission: fly.au
+  gm:
+    permission: gm.au
+  god:
+    permission: god.au
+  heal:
+    permission: heal.au
+  kickall:
+    permission: kickall.au
