@@ -16,3 +16,7 @@ commands:
     permission: heal.au
   kickall:
     permission: kickall.au
+  killall:
+    permission: killall.au
+  healall:
+    permission: helamall.au

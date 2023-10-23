@@ -32,9 +32,11 @@ public final class AlouUtils extends JavaPlugin {
         getCommand("fly").setExecutor(new FlyCommand());
         getCommand("gm").setExecutor(new GamamodeCommand());
         getCommand("kickall").setExecutor(new KickAllCommand());
+        getCommand("killall").setExecutor(new KillAllCommand());
         getCommand("enderchest").setExecutor(new EnderChestCommand());
         getCommand("god").setExecutor(new GodCommand());
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("heal").setExecutor(new HealCommand());
+        getCommand("healall").setExecutor(new HealAllCommand());
     }
 }
